@@ -1,19 +1,6 @@
-My research paper entitled, "Evaluation of Exact Parallel DBSCAN Algorithm Using Threading and Message Passing in Python" and the accompanying datasets and code written for the paper are stored in this folder. This paper was written in Fall 2023 for the Graduate course on parallel algorithms I was taking. In this research paper I introduce an MPI version and Threaded version of Mochurad et al.'s exact parallel DBSCAN algorithm in Python and provide an analysis in the differences in runtime and runtime complexity between our algorithms. 
+My research paper entitled, "Evaluation of Exact Parallel DBSCAN Algorithm Using Threading and Message Passing in Python," and the accompanying datasets and code written for the paper are stored in this folder. This paper was written in Fall 2023 for the Graduate course on parallel algorithms I was taking. In this research paper, I introduce an MPI version and Threaded version of Mochurad et al.'s exact parallel DBSCAN algorithm in Python and provide an analysis of the differences in runtime and runtime complexity between our algorithms.
 
-Here is a link to Mochurad et al.'s parallel DBSCAN implementation: 
-[Mochurad](https://www.frontiersin.org/articles/10.3389/fdata.2023.1292923/full) 
+Here is a link to Mochurad et al.'s parallel DBSCAN implementation: [Mochurad](https://www.frontiersin.org/articles/10.3389/fdata.2023.1292923/full)
 
 ### Abstract of my paper:
-** While unsupervised learning methods such as clustering can be incredibly effective at pattern
-recognition, the sheer size of modern unlabeled datasets necessitates that new, faster
-clustering algorithms continue developing. Many researchers have focused on improving the
-speed of the DBSCAN clustering algorithm for use with large datasets with high-dimensionality.
-This research project in particular is focused on replicating Mochurad et al.’s [12]
-implementation of an exact Euclidean parallel DBSCAN algorithm and comparing it with another
-exact parallel DBSCAN algorithm. Furthermore, in addition to replicating Mochurad’s parallel
-algorithm with threads as proposed in the original paper, this research project has developed a
-similar parallel DBSCAN algorithm which uses a Message-Passing Interface. The results of this
-research project indicate that 1) Mochurad et al.’s algorithm is not as fast as Wang et al.’s [16]
-algorithm and 2) despite varying runtime complexities, the MPI version surpasses the Threaded
-version due to Python's Global Interpreter Lock (GIL) **
-
+**While unsupervised learning methods such as clustering can be incredibly effective at pattern recognition, the sheer size of modern unlabeled datasets necessitates that new, faster clustering algorithms continue developing. Many researchers have focused on improving the speed of the DBSCAN clustering algorithm for use with large datasets with high-dimensionality. This research project, in particular, is focused on replicating Mochurad et al.’s [12] implementation of an exact Euclidean parallel DBSCAN algorithm and comparing it with another exact parallel DBSCAN algorithm. Furthermore, in addition to replicating Mochurad’s parallel algorithm with threads as proposed in the original paper, this research project has developed a similar parallel DBSCAN algorithm which uses a Message-Passing Interface. The results of this research project indicate that 1) Mochurad et al.’s algorithm is not as fast as Wang et al.’s [16] algorithm and 2) despite varying runtime complexities, the MPI version surpasses the Threaded version due to Python's Global Interpreter Lock (GIL).**
